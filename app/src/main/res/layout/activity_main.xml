@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoframe"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+
+        android:backgroundTint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_video"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="317dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/video_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/choosevideo"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="142dp"
+        android:onClick="ChooseVideo"
+        android:text="@string/choose_video" />
+
+    <Button
+
+        android:id="@+id/buttonUpload"
+        android:layout_width="374dp"
+        android:layout_height="68dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="58dp"
+        android:text="@string/upload" />
+
+    <ProgressBar
+        android:id="@+id/progressionBar_main"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="269dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_orange_dark"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/showvideo"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+
+        android:layout_alignStart="@+id/progressionBar_main"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="214dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="ShowVideo"
+        android:text="@string/show_video" />
+
+</RelativeLayout>

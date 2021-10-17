@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CloudVideoPlayer</string>
+    <string name="upload">Upload</string>
+    <string name="show_video">Show Video</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="video_name">video name</string>
+</resources>

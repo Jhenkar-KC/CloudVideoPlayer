@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "544976820315",
+    "firebase_url": "https://cloudvideoplaying-default-rtdb.firebaseio.com",
+    "project_id": "cloudvideoplaying",
+    "storage_bucket": "cloudvideoplaying.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544976820315:android:d48aa8599886823c06077e",
+        "android_client_info": {
+          "package_name": "com.example.cloudvideoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544976820315-pih54pb353po49m73fsg5g6mk72cdlnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV_Jkl1zQ1Q16e6cCO-YRsKTWdsu51xK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544976820315-pih54pb353po49m73fsg5g6mk72cdlnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
